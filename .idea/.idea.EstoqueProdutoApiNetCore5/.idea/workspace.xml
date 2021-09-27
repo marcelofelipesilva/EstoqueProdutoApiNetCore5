@@ -5,9 +5,11 @@
     <projectFile profileName="EstoqueProdutoApi">EstoqueProdutoApi/EstoqueProdutoApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fa429-4332-4041-b77c-f3bbb555f76a" name="Changes" comment="add ContaAcesso.cs">
-      <change afterPath="$PROJECT_DIR$/EstoqueProdutoApi/Business/Entities/Fornecedor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EstoqueProdutoApi/Business/Entities/Produto.cs" afterDir="false" />
+    <list default="true" id="574fa429-4332-4041-b77c-f3bbb555f76a" name="Changes" comment="atualizando">
+      <change afterPath="$PROJECT_DIR$/EstoqueProdutoApi/Business/IRepository/IContaAcessoRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EstoqueProdutoApi/Business/IRepository/IFornecedorRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EstoqueProdutoApi/Business/IRepository/IProdutoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EstoqueProdutoApiNetCore5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EstoqueProdutoApiNetCore5/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632777870648</updated>
-      <workItem from="1632777896409" duration="1171000" />
+      <workItem from="1632777896409" duration="1839000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial projeto.">
       <created>1632777967993</created>
@@ -100,7 +102,28 @@
       <option name="project" value="LOCAL" />
       <updated>1632778741732</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add Produto.cs">
+      <created>1632779139186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632779139186</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add Fornecedor.cs">
+      <created>1632779148510</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632779148510</updated>
+    </task>
+    <task id="LOCAL-00007" summary="atualizando">
+      <created>1632779170850</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632779170850</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +149,9 @@
     <MESSAGE value="excluir arquivos." />
     <MESSAGE value="add dependencias" />
     <MESSAGE value="add ContaAcesso.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ContaAcesso.cs" />
+    <MESSAGE value="add Produto.cs" />
+    <MESSAGE value="add Fornecedor.cs" />
+    <MESSAGE value="atualizando" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualizando" />
   </component>
 </project>
