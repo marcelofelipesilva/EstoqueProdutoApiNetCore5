@@ -22,7 +22,7 @@
     <ItemGroup>
       <Folder Include="Configurations" />
       <Folder Include="Controllers" />
-      <Folder Include="Infra\Data" />
+      <Folder Include="Infra\Data\Repositories" />
       <Folder Include="Models" />
     </ItemGroup>
 
