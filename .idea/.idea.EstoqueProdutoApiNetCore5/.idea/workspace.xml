@@ -5,8 +5,9 @@
     <projectFile profileName="EstoqueProdutoApi">EstoqueProdutoApi/EstoqueProdutoApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fa429-4332-4041-b77c-f3bbb555f76a" name="Changes" comment="add dependencias">
-      <change afterPath="$PROJECT_DIR$/EstoqueProdutoApi/Business/Entities/ContaAcesso.cs" afterDir="false" />
+    <list default="true" id="574fa429-4332-4041-b77c-f3bbb555f76a" name="Changes" comment="add ContaAcesso.cs">
+      <change afterPath="$PROJECT_DIR$/EstoqueProdutoApi/Business/Entities/Fornecedor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EstoqueProdutoApi/Business/Entities/Produto.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632777870648</updated>
-      <workItem from="1632777896409" duration="816000" />
+      <workItem from="1632777896409" duration="1171000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial projeto.">
       <created>1632777967993</created>
@@ -92,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632778630537</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add ContaAcesso.cs">
+      <created>1632778741732</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632778741732</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +125,7 @@
     <MESSAGE value="Commit inicial projeto." />
     <MESSAGE value="excluir arquivos." />
     <MESSAGE value="add dependencias" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dependencias" />
+    <MESSAGE value="add ContaAcesso.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ContaAcesso.cs" />
   </component>
 </project>
