@@ -24,7 +24,7 @@ namespace EstoqueProdutoApi.Infra.Data
             optionsBuilder.UseSqlServer(@"Server=172.17.0.6;Database=EstoqueProdutosApiBD;User Id=sa;Password=App@12345;");
         }
 
-        public DbSet<ContaAcesso> Livros { get; set; }
+        public DbSet<ContaAcesso> ContaAcessos { get; set; }
         public DbSet<Fornecedor> Fornecedores { get; set; }
         public DbSet<Produto> Produtos { get; set; }
     }
