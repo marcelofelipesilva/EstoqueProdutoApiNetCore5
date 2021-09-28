@@ -7,7 +7,7 @@ namespace EstoqueProdutoApi.Business.Entities
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int FuncionarioID { get; set; }
+        public int FornecedorID { get; set; }
         [StringLength(50)]
         public string Nome { get; set; }   
         

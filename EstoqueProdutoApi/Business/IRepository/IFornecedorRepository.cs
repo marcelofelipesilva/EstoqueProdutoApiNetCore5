@@ -5,7 +5,7 @@ namespace EstoqueProdutoApi.Business.IRepository
 {
     public interface IFornecedorRepository
     {
-        void AdicionarConatAcesso(Fornecedor fornecedor);
+        void AdicionarFornecedor(Fornecedor fornecedor);
         void Commit();
 
         List<Fornecedor> obterFornecedores(int FornecedorID);

@@ -9,8 +9,8 @@ namespace EstoqueProdutoApi.Infra.Data.Mappings
         public void Configure(EntityTypeBuilder<Fornecedor> builder)
         {
             builder.ToTable("TB_Fornecedor");
-            builder.HasKey(p => p.FuncionarioID);
-            builder.Property(p => p.FuncionarioID).ValueGeneratedOnAdd();
+            builder.HasKey(p => p.FornecedorID);
+            builder.Property(p => p.FornecedorID).ValueGeneratedOnAdd();
             builder.Property(p => p.Nome);
             
         }
