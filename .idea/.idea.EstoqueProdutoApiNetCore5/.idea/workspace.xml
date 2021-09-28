@@ -5,11 +5,7 @@
     <projectFile profileName="EstoqueProdutoApi">EstoqueProdutoApi/EstoqueProdutoApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fa429-4332-4041-b77c-f3bbb555f76a" name="Changes" comment="add ContaAcessoViewModelOutput.cs">
-      <change afterPath="$PROJECT_DIR$/EstoqueProdutoApi/Models/Fornecedor/FornecedorViewModelInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EstoqueProdutoApi/Models/Fornecedor/FornecedorViewModelOutput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EstoqueProdutoApi/EstoqueProdutoApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EstoqueProdutoApi/EstoqueProdutoApi.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="574fa429-4332-4041-b77c-f3bbb555f76a" name="Changes" comment="add ProdutoViewModelOutput.cs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632777870648</updated>
       <workItem from="1632777896409" duration="3564000" />
-      <workItem from="1632834157326" duration="3767000" />
+      <workItem from="1632834157326" duration="4373000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial projeto.">
       <created>1632777967993</created>
@@ -264,7 +260,35 @@
       <option name="project" value="LOCAL" />
       <updated>1632840292411</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add FornecedorViewModelInput.cs">
+      <created>1632840433683</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1632840433683</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add FornecedorViewModelOutput.cs">
+      <created>1632840445147</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1632840445147</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add ProdutoViewModelInput.cs">
+      <created>1632840700259</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1632840700259</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add ProdutoViewModelOutput.cs">
+      <created>1632840707380</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1632840707380</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,8 +311,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Commit inicial projeto." />
-    <MESSAGE value="excluir arquivos." />
     <MESSAGE value="add dependencias" />
     <MESSAGE value="add ContaAcesso.cs" />
     <MESSAGE value="add Produto.cs" />
@@ -310,6 +332,10 @@
     <MESSAGE value="add MigrationsEF.cs" />
     <MESSAGE value="add ContaAcessoViewModelInput.cs" />
     <MESSAGE value="add ContaAcessoViewModelOutput.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ContaAcessoViewModelOutput.cs" />
+    <MESSAGE value="add FornecedorViewModelInput.cs" />
+    <MESSAGE value="add FornecedorViewModelOutput.cs" />
+    <MESSAGE value="add ProdutoViewModelInput.cs" />
+    <MESSAGE value="add ProdutoViewModelOutput.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ProdutoViewModelOutput.cs" />
   </component>
 </project>
