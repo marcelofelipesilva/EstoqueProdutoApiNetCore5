@@ -27,7 +27,7 @@ namespace EstoqueProdutoApi.Infra.Data.Mappings
 
         public List<ContaAcesso> obterContaAcessos(int ContaAcessoID)
         {
-            return _apiDbcontext.Livros.Include(i => i.ContaAcessoID).Where(w => w.ContaAcessoID == ContaAcessoID).ToList();
+            return _apiDbcontext.ContaAcessos.Include(i => i.ContaAcessoID).Where(w => w.ContaAcessoID == ContaAcessoID).ToList();
         }
     }
 }
