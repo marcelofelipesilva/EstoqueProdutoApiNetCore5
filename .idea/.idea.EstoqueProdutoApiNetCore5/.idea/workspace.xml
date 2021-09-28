@@ -5,8 +5,8 @@
     <projectFile profileName="EstoqueProdutoApi">EstoqueProdutoApi/EstoqueProdutoApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="574fa429-4332-4041-b77c-f3bbb555f76a" name="Changes" comment="add ContaAcessoController.cs">
-      <change afterPath="$PROJECT_DIR$/EstoqueProdutoApi/Controllers/ProdutoController.cs" afterDir="false" />
+    <list default="true" id="574fa429-4332-4041-b77c-f3bbb555f76a" name="Changes" comment="add ProdutoController.cs">
+      <change afterPath="$PROJECT_DIR$/EstoqueProdutoApi/Controllers/FornecedorController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632777870648</updated>
       <workItem from="1632777896409" duration="3564000" />
-      <workItem from="1632834157326" duration="5846000" />
+      <workItem from="1632834157326" duration="5925000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial projeto.">
       <created>1632777967993</created>
@@ -318,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632842673907</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add ProdutoController.cs">
+      <created>1632842734743</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1632842734743</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +349,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add Fornecedor.cs" />
     <MESSAGE value="add IContaAcessoRepository.cs" />
     <MESSAGE value="add IFornecedorRepository.cs" />
     <MESSAGE value="add IProdutoRepository.cs" />
@@ -367,6 +373,7 @@
     <MESSAGE value="add migrations" />
     <MESSAGE value="add Readme.md" />
     <MESSAGE value="add ContaAcessoController.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ContaAcessoController.cs" />
+    <MESSAGE value="add ProdutoController.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ProdutoController.cs" />
   </component>
 </project>
