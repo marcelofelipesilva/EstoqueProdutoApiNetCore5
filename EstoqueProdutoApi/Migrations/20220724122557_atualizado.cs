@@ -1,8 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
+#nullable disable
+
 namespace EstoqueProdutoApi.Migrations
 {
-    public partial class inicialProjeto : Migration
+    public partial class atualizado : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

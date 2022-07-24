@@ -6,26 +6,30 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
+#nullable disable
+
 namespace EstoqueProdutoApi.Migrations
 {
     [DbContext(typeof(EstoqueProdutoApiDbcontext))]
-    [Migration("20210928145859_inicialProjeto")]
-    partial class inicialProjeto
+    [Migration("20220724122557_atualizado")]
+    partial class atualizado
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.10")
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("ProductVersion", "6.0.7")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
             modelBuilder.Entity("EstoqueProdutoApi.Business.Entities.ContaAcesso", b =>
                 {
                     b.Property<int>("ContaAcessoID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ContaAcessoID"), 1L, 1);
 
                     b.Property<string>("Login")
                         .HasMaxLength(15)
@@ -44,15 +48,16 @@ namespace EstoqueProdutoApi.Migrations
 
                     b.HasKey("ContaAcessoID");
 
-                    b.ToTable("TB_ContatoAcesso");
+                    b.ToTable("TB_ContatoAcesso", (string)null);
                 });
 
             modelBuilder.Entity("EstoqueProdutoApi.Business.Entities.Fornecedor", b =>
                 {
                     b.Property<int>("FornecedorID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FornecedorID"), 1L, 1);
 
                     b.Property<string>("Nome")
                         .HasMaxLength(50)
@@ -60,15 +65,16 @@ namespace EstoqueProdutoApi.Migrations
 
                     b.HasKey("FornecedorID");
 
-                    b.ToTable("TB_Fornecedor");
+                    b.ToTable("TB_Fornecedor", (string)null);
                 });
 
             modelBuilder.Entity("EstoqueProdutoApi.Business.Entities.Produto", b =>
                 {
                     b.Property<int>("ProdutoID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProdutoID"), 1L, 1);
 
                     b.Property<string>("Descricao")
                         .HasMaxLength(350)
@@ -86,7 +92,7 @@ namespace EstoqueProdutoApi.Migrations
 
                     b.HasKey("ProdutoID");
 
-                    b.ToTable("TB_Produto");
+                    b.ToTable("TB_Produto", (string)null);
                 });
 #pragma warning restore 612, 618
         }
