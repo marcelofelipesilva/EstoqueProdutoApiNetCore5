@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EstoqueProdutoApi.Business.IRepository;
+using EstoqueProdutoApi.Infra.Data;
+using EstoqueProdutoApi.Infra.Data.Mappings;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +30,10 @@ namespace EstoqueProdutoApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDbContext<EstoqueProdutoApiDbcontext>();
+            services.AddScoped<IContaAcessoRepository ,ContaAcessoRepository>();
+            services.AddScoped<IFornecedorRepository, FornecedorRepository>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "EstoqueProdutoApi", Version = "v1"});
